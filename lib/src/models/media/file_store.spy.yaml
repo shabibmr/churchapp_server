@@ -1,0 +1,13 @@
+class: FileStore
+table: file_store
+fields:
+    title: String?
+    subTitle: String?
+    addedBy: Contact?
+    fileName: String?
+    fileType: String?
+    file: ByteData?
+    published: bool?
+    duration: Duration?
+    description: String?
+    fileSize: double?

@@ -1,0 +1,10 @@
+class: Comment
+table: comments
+fields:
+    sent: DateTime
+    delivered: DateTime?
+    received: DateTime?
+    read: DateTime?
+    text: String?
+    file: FileStore?
+    sentBy: Contact?

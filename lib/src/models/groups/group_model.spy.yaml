@@ -1,0 +1,8 @@
+class: SmallGroup
+table: small_groups
+fields:
+    name: String?
+    description: String?
+    detail: String?
+    type: GroupType?
+    members: List<Contact>?, relation()

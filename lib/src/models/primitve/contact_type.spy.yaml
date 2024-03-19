@@ -1,0 +1,5 @@
+class: ContactType
+table: contact_type
+fields:
+    description: String?
+    color: String?

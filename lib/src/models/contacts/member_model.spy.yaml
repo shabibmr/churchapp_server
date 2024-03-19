@@ -1,0 +1,14 @@
+class: Member
+table: members
+fields:
+    contact: Contact?, relation
+    joiningDate: DateTime?
+    occupation: String?
+    eduQualification: String?
+    language: String?
+    race: String?
+    ethinicty: String?
+    skills: List<Skill?>
+    baptistDate: DateTime?
+    membershipFee: int?
+    family: Family?, relation

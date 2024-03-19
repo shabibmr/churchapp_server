@@ -1,0 +1,6 @@
+class: Family
+table: families
+fields:
+    familyName: String?
+    famMemIdx: UuidValue
+    members: List<Member>?, relation

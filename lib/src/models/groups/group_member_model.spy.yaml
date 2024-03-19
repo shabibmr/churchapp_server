@@ -1,0 +1,8 @@
+class: SmallGroupMember
+table: small_group_members
+fields:
+    group: SmallGroup?, relation()
+    member: Contact?, relation()
+    position: Position
+    availablePositonCount: int
+    

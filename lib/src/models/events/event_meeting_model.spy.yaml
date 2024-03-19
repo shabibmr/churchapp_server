@@ -1,0 +1,8 @@
+class: EventMeeting
+table: event_meetings
+fields:
+    title: String?
+    description: String?
+    detailedDescription: String? 
+    meeting: Meeting?, relation()
+    event: Event?, relation()

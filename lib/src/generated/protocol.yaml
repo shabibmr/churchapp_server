@@ -1,0 +1,17 @@
+example:
+  - hello:
+contactEndPoint:
+  - delete:
+  - findById:
+  - getList:
+  - insert:
+  - update:
+skills:
+  - addSkill:
+  - getSkills:
+  - deleteSkill:
+  - delete:
+  - findById:
+  - getList:
+  - insert:
+  - update:

@@ -1,0 +1,7 @@
+class: EventType
+table: event_types
+fields:
+    description: String?
+    color: String?
+    createdBy: int?
+    createdAt: DateTime?

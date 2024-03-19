@@ -1,0 +1,16 @@
+class: ResourceBooking
+table: resource_bookings
+fields:
+    createdDateTime: DateTime?
+    requestedBy: Contact?, relation
+    quanity: int?
+    duration: Duration?
+    startDateTime: DateTime?
+    endDateTime: DateTime?
+    rate: int?
+    amount: int?
+    approvalStatus: bool?
+    paymentStatus: bool?
+    transactionID: String?
+    rbookingID: int?
+    venue: Venue?, relation

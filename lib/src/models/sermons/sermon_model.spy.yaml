@@ -1,0 +1,9 @@
+class: Sermon
+table: sermons
+fields:
+    title: String?
+    subTitle: String?
+    addedBy: Contact?
+    published: bool?
+    authors: List<Contact>?, relation()
+    file: FileStore?

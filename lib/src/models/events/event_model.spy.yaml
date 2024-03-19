@@ -1,0 +1,10 @@
+class: Event
+table: events
+fields:
+    title: String?
+    description: String?
+    type: EventType?
+    eventMeetings: List<EventMeeting>?, relation()
+    eventGroups: List<EventGroup>?, relation()
+    
+    

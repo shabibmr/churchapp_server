@@ -1,0 +1,10 @@
+class: Meeting
+table: meetings
+fields:
+    title: String?
+    description: String?
+    createdBy: Contact?
+    createdAt: DateTime?
+    startTime: DateTime?
+    endTime: DateTime?
+    duration: Duration?

@@ -1,0 +1,11 @@
+enum: BloodGroup  
+serialized: byName  
+values:  
+ - A  
+ - B 
+ - AB
+ - O
+ - A_ve
+ - B_ve
+ - AB_ve
+ - O_ve

@@ -1,0 +1,8 @@
+enum: ScheduleStatus
+serialized: byName
+values:
+    - Waiting
+    - Fired
+    - Paused
+    - Cancelled
+    - Snoozed

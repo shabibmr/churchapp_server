@@ -1,0 +1,14 @@
+class: Service
+table: services
+fields:
+    title: String?
+    description: String?
+    type: ServiceType?
+    image: ByteData?
+    createdAt: DateTime?
+    createdBy: Contact?
+    meetings: List<Meeting>?, relation()
+    rosters: List<ServiceRoster>?, relation()
+    members: List<Contact>?, relation()
+    discussions: List<ChatRoom>?, relation()
+    files: List<FileStore>?, relation()

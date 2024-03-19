@@ -1,0 +1,6 @@
+class: SermonType
+table: sermon_type
+fields:
+    description: String?
+    color: String?
+    

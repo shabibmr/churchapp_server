@@ -1,0 +1,20 @@
+class: Schedule
+table: schedules
+fields:
+    title: String?
+    description: String?
+    createdAt: DateTime?
+    createdBy: DateTime?
+    dueDateTime: DateTime?
+    startDateTime: DateTime?
+    endDateTime: DateTime?
+    duration: Duration?
+    recurring: bool?
+    tillDateTime: DateTime?
+    interval: Duration?
+    totalCount: int?
+    status: ScheduleStatus
+    snoozedTo: DateTime?
+    snoozeCount: int?
+    stoppedBy: Contact?
+

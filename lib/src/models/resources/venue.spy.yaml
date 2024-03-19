@@ -1,0 +1,8 @@
+class: Venue
+table: venues
+fields:
+    name: String?
+    venueType: VenueType?
+    location: String?
+    capacity: int?
+    rent: int?

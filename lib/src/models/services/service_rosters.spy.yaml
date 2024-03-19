@@ -1,0 +1,7 @@
+class: ServiceRoster
+table: service_rosters
+fields:
+    member: Contact
+    service: Service
+    position: Position
+    availability: int

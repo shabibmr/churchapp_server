@@ -1,0 +1,6 @@
+class: ResourceType
+table: resource_type
+fields:
+    description: String?
+    color: String?
+    

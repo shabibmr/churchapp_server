@@ -1,0 +1,6 @@
+class: VenueType
+table: venue_type
+fields:
+    description: String?
+    color: String?
+    

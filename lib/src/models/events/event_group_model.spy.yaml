@@ -1,0 +1,5 @@
+class: EventGroup
+table: event_group
+fields:
+    group: SmallGroup?, relation()
+    event: Event?, relation()

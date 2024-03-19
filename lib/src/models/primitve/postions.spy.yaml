@@ -1,0 +1,6 @@
+class: Position
+table: positions
+fields:
+    description: String?
+    color: String?
+    

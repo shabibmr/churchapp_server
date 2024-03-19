@@ -1,0 +1,8 @@
+class: Resource
+table: resources
+fields:
+    name: String?
+    resourceType: ResourceType?
+    location: String?
+    quanity: int?
+    rent: int?

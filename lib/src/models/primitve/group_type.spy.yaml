@@ -1,0 +1,6 @@
+class: GroupType
+table: group_type
+fields:
+    description: String?
+    color: String?
+    

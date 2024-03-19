@@ -1,0 +1,6 @@
+class: ServiceType
+table: service_type
+fields:
+    description: String?
+    color: String?
+    

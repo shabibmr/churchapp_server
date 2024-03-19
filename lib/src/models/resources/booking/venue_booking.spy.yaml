@@ -1,0 +1,21 @@
+class: VenueBooking
+table: venue_bookings
+fields:
+    createdDateTime: DateTime?
+    requestedBy: Contact?, relation
+    duration: Duration?
+    startDateTime: DateTime?
+    endDateTime: DateTime?
+    rate: int?
+    amount: int?
+    approvalStatus: bool?
+    paymentStatus: bool?
+    transactionID: String?
+    vbookingID: int?
+    venue: Venue?, relation
+    resources: List<ResourceBooking?>?
+    # indexes:
+    #     v_booking_idx:
+    #         fields: vbookingID
+
+    

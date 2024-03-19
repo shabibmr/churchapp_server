@@ -1,0 +1,7 @@
+class: EventItenaryItem
+table: event_itenary_items
+fields:
+    title: String?
+    description: String?
+    startTime: DateTime?
+    duration: Duration?

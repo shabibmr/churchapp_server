@@ -1,0 +1,16 @@
+class: Contact
+table: contacts
+fields:
+    name: String?
+    suffix: String?
+    dob: DateTime?
+    email: String?
+    address: String?
+    gender: Gender?
+    bloodGroup: BloodGroup?
+    emergencyContactNo: String?
+    mobile: String?
+    homePhone: String?
+    officePhone: String?
+    contactType: ContactType?
+    profilePic: ByteData?
